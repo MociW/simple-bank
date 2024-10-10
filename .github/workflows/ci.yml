@@ -15,7 +15,7 @@ jobs:
             postgres:
                 image: postgres:12
                 env:
-                    POSTGRE_USER: root
+                    POSTGRES_USER: root
                     POSTGRES_PASSWORD: root
                     POSTGRES_DB: simple_bank
                 options: >-
